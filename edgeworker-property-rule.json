@@ -1,0 +1,28 @@
+{
+    "name": "hello world",
+    "children": [],
+    "behaviors": [
+        {
+            "name": "edgeWorker",
+            "options": {
+                "enabled": true,
+                "createEdgeWorker": "",
+                "edgeWorkerId": "4521"
+            }
+        }
+    ],
+    "criteria": [
+        {
+            "name": "path",
+            "options": {
+                "matchOperator": "MATCHES_ONE_OF",
+                "values": [
+                    "/hello-world"
+                ],
+                "matchCaseSensitive": false,
+                "normalize": false
+            }
+        }
+    ],
+    "criteriaMustSatisfy": "all"
+} 
